@@ -1,0 +1,209 @@
+html {
+  font-family: "Roboto", sans-serif;
+  background: #d3c6c6;
+}
+
+body {
+  position: relative;
+  width: 80%;
+  margin-top : -25px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.header {
+  color: #e0f2f1;
+  background: #00bcd4;
+  position: relative;
+  height: 200px;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.sandbox {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 40%;
+  display: none;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px #666666;
+}
+
+.main {
+  position: absolute;
+  margin-left: 60%;
+  margin-right: 2%;
+  margin-top: -80px;
+  z-index: 16;
+}
+
+.main .card {
+  position: relative;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 25px;
+  color: #e0f2f1;
+  background: #26a69a;
+  box-shadow: 5px 5px 10px #666666;
+}
+
+.card .button {
+  color: #e0f2f1;
+  background: #00bfa5;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2em;
+  box-shadow: 1px 2px 8px #666666;
+
+  border: none;
+  width: 150px;
+  line-height: 2em;
+
+  position: relative;
+  margin-right: 5%;
+  margin-left: auto;
+
+  cursor: pointer;
+}
+
+a {
+  color: #b2dfdb;
+  text-decoration: none;
+}
+
+/*Janken CSS*/
+.janken_sandbox {
+  height : 300px;
+  width : 300px;
+  padding : 25px 25px;
+  color : #d0f8ce;
+  background : #259b24;
+}
+
+.jankenbutton {
+  background: #ffeb3b;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2em;
+  box-shadow: 1px 2px 8px #666666;
+
+  border: none;
+  width: 120px;
+  margin-left:5px;
+
+  cursor: pointer;
+}
+
+
+
+/*Calculator CSS*/
+.calc_sandbox {
+  height : 380px;
+  width : 240px;
+  padding : none;
+  color : #fafafa;
+  background : #9e9e9e;
+  font-weight : 300;
+}
+
+#calc_menu {
+  position: relative;
+  width: 240px;
+  height: 20px;
+  background: #424242;
+}
+
+#calc_menu #calc_quit {
+  width: 60px;
+  height: 20px;
+  background: #616161;
+  color: #9e9e9e;
+  text-align: center;
+  float:right;
+  cursor: pointer;
+}
+
+#calc_lcd {
+  position: relative;
+  width: 240px;
+  height: 120px;
+  box-shadow: 0px 0px 10px #666666 inset;
+}
+
+#calc_output {
+  font-size: 2em;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#calc_mem {
+  font-size: 1.5em;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#calc_leftpanel {
+  float:left;
+  width:180px;
+  overflow:hidden;
+}
+
+#calc_rightpanel {
+  float:left;
+  width:60px;
+  overflow:hidden;
+}
+
+.calc_number {
+  float: left;
+  background: #424242;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+#calc_leftpanel .calc_operator {
+  float: left;
+  background: #424242;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+#calc_rightpanel .calc_operator {
+  float: left;
+  background: #616161;
+  width: 60px;
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+
+/* SVG */
+.svg_sandbox {
+  height : 500px;
+  width : 800px;
+  background: white;
+  border: 1px solid black;
+}
