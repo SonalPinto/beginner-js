@@ -1,2 +1,4 @@
 # beginner-js
-Beginner JS webpage. Has a material design calculator.
+Beginner JS webpage. jQuery. Has a material design calculator.
+
+
